@@ -1,0 +1,19 @@
+name: Research / Investigation
+description: Investigate a question or compare approaches
+title: "[Research]: "
+labels: ["research"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe your research question below.
+        Include relevant references where possible.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Research Question
+      description: What do you want to investigate?
+    validations:
+      required: true
